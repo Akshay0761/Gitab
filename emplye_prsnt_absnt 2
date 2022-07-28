@@ -1,0 +1,10 @@
+#!/bin/bash -x
+
+is_present=4
+random_check=$((RANDOM%7))
+if [ $random_check -eq $is_present ]
+then
+        echo "the employee is present"
+else
+        echo "the employee is absent"
+fi
